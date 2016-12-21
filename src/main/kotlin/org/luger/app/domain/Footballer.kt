@@ -6,8 +6,8 @@ import java.time.temporal.ChronoUnit
 import javax.persistence.*
 
 /**
- * Created by gerardo8 on 30/11/2016.
- */
+* Created by gerardo8.
+*/
 
 @Entity
 @Table(schema = "KOTLIN_APP", name = "FOOTBALLER")

@@ -7,8 +7,8 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource
 import org.springframework.data.rest.core.annotation.RestResource
 
 /**
- * Created by gerardo8 on 30/11/2016.
- */
+* Created by gerardo8.
+*/
 
 @RepositoryRestResource(path = "footballer")
 interface FootballerRepository : JpaRepository<Footballer, Long> {

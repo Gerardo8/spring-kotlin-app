@@ -8,8 +8,8 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry
 
 
 /**
- * Created by gerardo8 on 02/12/2016.
- */
+* Created by gerardo8.
+*/
 
 @Configuration
 @EnableWebMvc

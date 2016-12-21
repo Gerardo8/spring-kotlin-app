@@ -9,8 +9,8 @@ import org.springframework.context.annotation.Bean
 import java.time.LocalDate
 
 /**
- * Created by gerardo8 on 30/11/2016.
- */
+* Created by gerardo8.
+*/
 
 @SpringBootApplication
 open class KotlinApp {
