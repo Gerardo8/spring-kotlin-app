@@ -54,6 +54,12 @@ open class KotlinApp {
                 playingPosition = "Striker"
         ))
         repository.save(Footballer(
+                name = "James David Rodríguez Rubio",
+                birthDate = LocalDate.of(1991, 6, 12),
+                birthPlace = "Cúcuta, Colombia",
+                playingPosition = "Attacking midfielder"
+        ))
+        repository.save(Footballer(
                 name = "Gerardo López Reyes",
                 birthDate = LocalDate.of(1993, 8, 26),
                 birthPlace = "México City, México",
