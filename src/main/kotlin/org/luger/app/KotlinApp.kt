@@ -13,10 +13,10 @@ import java.time.LocalDate
 */
 
 @SpringBootApplication
-open class KotlinApp {
+class KotlinApp {
 
     @Bean
-    open fun init(repository: FootballerRepository) = CommandLineRunner {
+    fun init(repository: FootballerRepository) = CommandLineRunner {
 
         repository.save(Footballer(
                 name = "Steven George Gerrard",

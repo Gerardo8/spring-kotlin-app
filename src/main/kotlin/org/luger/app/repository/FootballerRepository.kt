@@ -9,13 +9,12 @@ import org.springframework.data.rest.core.annotation.RestResource
 /**
 * Created by gerardo8.
 */
-
 @RepositoryRestResource(path = "footballer")
 interface FootballerRepository : JpaRepository<Footballer, Long> {
 
     @RestResource(path = "name")
-    fun findByNameIgnoringCase(@Param("value") name: String) : List<Footballer>
+    fun findByNameIgnoringCase(@Param("name") name: String) : List<Footballer>
 
     @RestResource(path = "nickname")
-    fun findByNicknameIgnoringCase(@Param("value") lastName: String) : List<Footballer>
+    fun findByNicknameIgnoringCase(@Param("nickname") lastName: String) : List<Footballer>
 }
